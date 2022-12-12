@@ -1,0 +1,36 @@
+<resources>
+    <string-array name="valors_array">
+        <item><font fgcolor='#FFFFFF'>Patatas</font></item>
+        <item><font fgcolor='#FFFFFF'>Huevos</font></item>
+        <item><font fgcolor='#FFFFFF'>Silla</font></item>
+        <item><font fgcolor='#FFFFFF'>JetBrains</font></item>
+        <item><font fgcolor='#FFFFFF'>Esteroides</font></item>
+    </string-array>
+
+    <string name="app_name">Sosa_Lonious_Layouts</string>
+    <string name="marcam">MARCAME, AHORA</string>
+    <string name="ami">QUEEEEEDATE</string>
+    <string name="goz">El nuevo Pokemon es bastante regulero</string>
+    <string name="opcio1">Fornitai</string>
+    <string name="opcio2">La Babayi</string>
+    <string name="opcio3">La Logitick</string>
+    <string name="opcio4">La HyperEXITSEXITS</string>
+    <string name="resumen"></string>
+    <string name="nom">Nom</string>
+    <string name="formulario">FORMULARIO</string>
+    <string name="cognoms">Cognoms</string>
+    <string name="lonious"><b> Lonious</b></string>
+    <string name="sosa"> Sosa</string>
+    <string name="telefono">Telefono</string>
+    <string name="_888_88_88_88"> 888 88 <b>88</b> 88</string>
+    <string name="mail">Mail</string>
+    <string name="termineitor"> termineitor@gmail.com</string>
+    <string name="direccion">Direccion</string>
+    <string name="calle"> C. de <b>Ejemplo</b></string>
+    <string name="getOut">Lea las <b>instrucciones</b> de este medicamento y consulte a su <b>farmacéutico</b>.</string>
+    <string name="spinBaby">Spinner</string>
+    <string name="spintext">SpinText</string>
+    <string name="reciclando">RECICLANDO</string>
+    <string name="titlehint">TitleHint</string>
+    <string name="subtitlehint">SubTitleHint</string>
+</resources>

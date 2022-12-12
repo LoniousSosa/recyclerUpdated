@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuestraForm">
+
+  <TextView
+      android:id="@+id/tituloMuestra"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Resultado Formulario"
+      android:textSize="40dp"
+      android:textColor="@color/teal_700"
+      android:textAlignment="center"
+      android:layout_marginTop="10dp"
+      />
+
+  <TextView
+      android:id="@+id/nombreMuestra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_below="@id/tituloMuestra"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/teal_700"
+      />
+
+  <TextView
+      android:id="@+id/cognomMuestra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_below="@id/nombreMuestra"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/teal_700"
+    />
+
+  <TextView
+      android:id="@+id/telefonoMuestra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_below="@id/cognomMuestra"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/teal_700"
+      />
+  <TextView
+      android:id="@+id/mailMuestra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_below="@id/telefonoMuestra"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/teal_700"
+      />
+
+  <TextView
+      android:id="@+id/direccionMuestra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_below="@id/mailMuestra"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/teal_700"
+      />
+  <TextView
+      android:id="@+id/spinner1Muestra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_below="@id/direccionMuestra"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/teal_700"
+      />
+  <TextView
+      android:id="@+id/spinner2Muestra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_below="@id/spinner1Muestra"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/teal_700"
+      />
+
+  </RelativeLayout>

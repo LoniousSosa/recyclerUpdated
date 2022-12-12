@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormulariLonious">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/formTitle"
+        android:text="@string/formulario"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/teal_700"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomLayout"
+        android:text="@string/nom"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/formTitle"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/teal_700"
+        />
+
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nomLayout"
+        android:background="@color/teal_700"
+        android:layout_alignTop="@id/nomLayout"
+        android:layout_alignBottom="@id/nomLayout"
+        android:layout_alignLeft="@id/cognomLayout"
+        android:hint="@string/lonious"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:drawableLeft="@mipmap/goku"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cognoms"
+        android:text="@string/cognoms"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/nomLayout"
+        android:layout_alignLeft="@id/nomLayout"
+        android:textColor="@color/teal_700"
+        />
+
+    <EditText
+        android:id="@+id/cognomLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cognoms"
+        android:background="@color/teal_700"
+        android:layout_alignTop="@id/cognoms"
+        android:layout_alignBottom="@id/cognoms"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/sosa"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:drawableLeft="@mipmap/lucian"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telefono"
+        android:text="@string/telefono"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cognoms"
+        android:layout_alignLeft="@id/nomLayout"
+        android:textColor="@color/teal_700"
+        />
+
+    <EditText
+        android:id="@+id/telLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/telefono"
+        android:background="@color/teal_700"
+        android:layout_alignTop="@id/telefono"
+        android:layout_alignBottom="@id/telefono"
+        android:layout_alignLeft="@id/cognomLayout"
+        android:hint="@string/_888_88_88_88"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:inputType="phone"
+        android:drawableLeft="@mipmap/payphone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:text="@string/mail"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/telefono"
+        android:layout_alignLeft="@id/nomLayout"
+        android:textColor="@color/teal_700"
+        />
+    <EditText
+        android:id="@+id/mailLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mail"
+        android:background="@color/teal_700"
+        android:layout_alignTop="@id/mail"
+        android:layout_alignBottom="@id/mail"
+        android:layout_alignLeft="@id/cognomLayout"
+        android:hint="@string/termineitor"
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@mipmap/quevedo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/direccion"
+        android:text="@string/direccion"
+        android:layout_below="@id/mail"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/nomLayout"
+        android:textColor="@color/teal_700"
+        />
+
+    <EditText
+        android:id="@+id/direccionLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/direccion"
+        android:background="@color/teal_700"
+        android:layout_alignTop="@id/direccion"
+        android:layout_alignBottom="@id/direccion"
+        android:layout_alignLeft="@id/cognomLayout"
+        android:hint="@string/calle"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:inputType="textPostalAddress"
+        android:drawableLeft="@mipmap/flecha"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinTextView"
+        android:text="@string/spintext"
+        android:layout_below="@id/direccion"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/nomLayout"
+        android:textColor="@color/teal_700"
+        />
+
+    <ListView
+        android:id="@+id/spinTextList"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_toRightOf="@id/spinTextView"
+        android:background="@color/teal_700"
+        android:layout_alignTop="@id/spinTextView"
+        android:layout_alignBottom="@id/spinTextView"
+        android:layout_alignLeft="@id/cognomLayout"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:text="@string/spinBaby"
+        android:layout_below="@id/spinTextView"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/nomLayout"
+        android:textColor="@color/teal_700"
+        />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/spinner"
+        android:background="@color/teal_700"
+        android:layout_alignTop="@id/spinner"
+        android:layout_alignBottom="@id/spinner"
+        android:layout_alignLeft="@id/cognomLayout"
+        android:popupBackground="@color/teal_700"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spin"
+        android:layout_marginTop="25dp"
+        android:text="MUESTRA"
+        android:layout_toRightOf="@id/direccion"
+        android:layout_marginLeft="14dp"
+        android:id="@+id/buttonForm"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoLegal"
+        android:layout_below="@id/buttonForm"
+        android:background="@color/purple_500"
+        android:layout_marginTop="15dp"
+        android:text="@string/getOut"
+        android:textColor="@color/white"
+        android:padding="40px"
+
+        />
+
+
+</RelativeLayout>

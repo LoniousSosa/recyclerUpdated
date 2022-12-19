@@ -33,4 +33,7 @@
     <string name="reciclando">RECICLANDO</string>
     <string name="titlehint">TitleHint</string>
     <string name="subtitlehint">SubTitleHint</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="insertar">INSERTAR</string>
+    <string name="mover">MOVER</string>
 </resources>

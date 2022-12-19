@@ -8,6 +8,38 @@
     tools:context=".ReciclerLonious"
     android:background="@color/normal_blue">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reciclerTitle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/insertar"
+        android:text="@string/insertar"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/eliminar"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reciclerTitle"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/insertar"
+        android:layout_marginLeft="15dp"
+        android:text="@string/eliminar"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reciclerTitle"
+        android:id="@+id/mover"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/eliminar"
+        android:layout_marginLeft="20dp"
+        android:text="@string/mover"
+        />
     <TextView
         android:id="@+id/reciclerTitle"
         android:layout_width="match_parent"
@@ -22,6 +54,8 @@
         android:id="@+id/recView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/reciclerTitle" />
+        android:layoutAnimation="@anim/layout_animation"
+        android:layout_below="@+id/insertar"
+        android:textColor="@color/white"/>
 
 </RelativeLayout>
